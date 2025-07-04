@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;700&family=DM+Mono:wght@400;500&display=swap");
+
+/* Global Styles */
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  @apply bg-bg;
+}
+
+/* Custom Scrollbar */
+body::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+
+/* Section Title Decoration */
+.landingSectionTitle::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 105%;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 100vw;
+  @apply bg-fun-pink;
+}
+
+@media (max-width: 768px) {
+  .landingSectionTitle::before {
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 8px;
+    width: 150px;
+    @apply bg-fun-pink;
+  }
+}
+
+/* Mobile Navigation */
+.burger {
+  transition: opacity 300ms ease;
+  background: transparent;
+  border: none;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.burger svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  transition: opacity 300ms ease, transform 300ms ease;
+}
+
+.burger svg[data-hide="true"] {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.menu {
+  margin: 0;
+  padding: 40px 20px 0;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  z-index: 100;
+  opacity: 0;
+  transition: opacity 300ms ease, transform 300ms ease;
+}
+
+.menu li {
+  transform: translateX(-16px);
+  opacity: 0;
+  width: 0;
+  white-space: nowrap;
+  transition: all 300ms ease;
+}
+
+.menuRendered {
+  opacity: 1;
+}
+
+.menuRendered li {
+  transform: translateX(0);
+  opacity: 1;
+  @apply w-full border-gray-600;
+}
+
+.menu>*+* {
+  margin-top: 24px;
+}
+
+/* Testimonial Quote Styling */
+.testimonialQuote::before {
+  content: "“";
+  position: absolute;
+  top: -10px;
+  left: -46px;
+  opacity: 0.75;
+  font-size: 80px;
+  @apply text-fun-pink;
+}
+
+/* Hero Element Animation */
+@keyframes scaleDownIn {
+  from {
+    opacity: 0;
+    transform: scale(4) translateY(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+.heroElem {
+  animation: scaleDownIn 1.5s cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.heroElem .sqD:not(.squiggle-hero-pop1) {
+  animation: float 2s infinite ease-in-out;
+}
+
+.heroTitle .sqD {
+  @apply scale-[0.8] lg:scale-100;
+}
+
+/* SVG Decorations */
+.sqD {
+  @apply absolute z-[-10];
+}
