@@ -7,14 +7,12 @@
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" height="40" alt="React" />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" height="40" alt="Tailwind CSS" />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" height="40" alt="TypeScript" />
-  <img width="12" />
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" height="40" alt="React" style="margin-right:12px;" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" height="40" alt="Tailwind CSS" style="margin-right:12px;" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" height="40" alt="TypeScript" style="margin-right:12px;" />
   <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge" height="40" alt="Next.js" />
 </div>
+
 
 ---
 
@@ -76,3 +74,4 @@ Next.js • React • Tailwind CSS • TypeScript • MDX • Contentlayer • S
 Designed and Developed with 🧠 by **Muhammad Tanveer Abbas** 🌟
 
 </div>
+
