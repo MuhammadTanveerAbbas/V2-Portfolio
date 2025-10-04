@@ -35,7 +35,7 @@ export default function MobileNavbar() {
       <div
         className={`w-full justify-between flex items-center ${
           isMenuRendered && "bg-bg"
-        } p-5`}
+        } px-4 py-3`}
         style={{ zIndex: 101 }}
       >
         <Link href="/" passHref>
@@ -43,10 +43,9 @@ export default function MobileNavbar() {
             <img
               src="/static/logos/logo_full.png"
               alt="Tanveer Dev Logo"
-              width="40"
-              height="40"
+              className="w-8 h-8 sm:w-10 sm:h-10"
             />
-            <span className="text-white text-xl font-semibold flex space-x-[1px]">
+            <span className="text-white text-lg sm:text-xl font-semibold flex space-x-[1px]">
               {"Tanveer Dev".split("").map((letter, index) => (
                 <span
                   key={index}
@@ -59,7 +58,7 @@ export default function MobileNavbar() {
           </a>
         </Link>
         <button
-          className="burger visible md:hidden"
+          className="burger visible md:hidden p-2 rounded-md hover:bg-gray-800 transition-colors"
           aria-label="Toggle menu"
           type="button"
           onClick={toggleMenu}
@@ -76,11 +75,12 @@ export default function MobileNavbar() {
           {routes.map((item, index) => {
             return (
               <li
-                className="border-b border-gray-900 text-gray-100 text-sm font-semibold"
+                key={index}
+                className="border-b border-gray-900 text-gray-100 text-base font-semibold"
                 style={{ transitionDelay: `${150 + index * 25}ms` }}
               >
                 <Link href={item.path}>
-                  <a className="flex w-auto pb-4">{item.title}</a>
+                  <a className="flex w-auto py-4 px-5 hover:text-fun-pink transition-colors">{item.title}</a>
                 </Link>
               </li>
             );

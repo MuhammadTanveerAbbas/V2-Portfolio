@@ -28,14 +28,7 @@ function Footer() {
                 />
                 <span className="sr-only">NextJS</span>
               </span>
-              <img
-                src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tailwindcss.svg"
-                width={26}
-                height={26}
-                alt="Tailwind CSS Logo"
-                title="Tailwind CSS"
-                className="inline-block"
-              />
+
             </div>
           </div>
         </p>

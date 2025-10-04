@@ -8,8 +8,8 @@ function Hero() {
         className="relative heroElem w-full pt-20 pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
         style={{ maxWidth: "1200px" }}
       >
-        <p className="text-xl mb-0">Hey, I'm Tanveer 👋</p>
-        <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg">
+        <p className="text-3xl md:text-4xl font-bold mb-4">Hey, I'm Tanveer 👋</p>
+        <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl w-auto relative text-4xl md:text-5xl lg:text-6xl tracking-tighter mb-10 font-bold heroShinyBg">
           I develop <span className="heroShiny1 text-fun-pink">innovative</span>{" "}
           websites that elevate your{" "}
           <span className="heroShiny2 text-fun-pink">business 🚀</span>

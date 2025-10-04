@@ -5,7 +5,7 @@ const projects: Project[] = [
   {
     id: 0,
     title: "NexBank",
-    desc: "Enterprise-grade corporate website for credit and debit cards with a secure process.",
+    desc: "A Production ready modren, reusable template for rapid deployment of corporate banks websites.",
     img: "/static/projects/NexBank.png",
     link: "https://nexbank-spa.vercel.app",
     github: "https://github.com/MuhammadTanveerAbbas/NexBank-SPA",
@@ -14,7 +14,7 @@ const projects: Project[] = [
   {
     id: 1,
     title: "Axel AI",
-    desc: "A Modern SaaS AI landing page template to boost productivity across various workflows.",
+    desc: "A modern SaaS AI landing page template that I use across various projects to streamline my workflow.",
     img: "/static/projects/Axel.png",
     link: "https://axel-ai-landing-page.vercel.app/",
     github: "https://github.com/MuhammadTanveerAbbas/Axel-AI-Landing-Page",
@@ -23,7 +23,7 @@ const projects: Project[] = [
   {
     id: 2,
     title: "Nike UI",
-    desc: "A ecommerce landing page for showcasing and selling Nike shoes and build brand identity.",
+    desc: "An ecommerce landing page designed to showcase and sell shoes while building a strong brand identity.",
     img: "/static/projects/Nike UI.png",
     link: "https://nike-ui-spa.vercel.app/",
     github: "https://github.com/MuhammadTanveerAbbas/Nike-UI",
@@ -32,7 +32,7 @@ const projects: Project[] = [
   {
     id: 3,
     title: "Zestymint",
-    desc: "A Mint Drink Website where the brand showcasing there Drinks and making there brand identity",
+    desc: "A mint drink website that highlights the brands refreshing beverages and builds a distinctive identity.",
     img: "/static/projects/Zestymint.png",
     link: "https://zestymint.vercel.app/",
     github: "https://github.com/MuhammadTanveerAbbas/zestymint",
@@ -41,7 +41,7 @@ const projects: Project[] = [
   {
     id: 4,
     title: "HomeVerse Ui",
-    desc: "A Real Estate Landing Page where peoples can buy or sale and can rent houses",
+    desc: "A modern real estate landing page designed to help users buy, sell, or rent properties with honest & ease.",
     img: "/static/projects/Homeverse.png",
     link: "https://homeverse-ui.netlify.app/",
     github: "https://github.com/MuhammadTanveerAbbas/homeverse-ui",
@@ -50,7 +50,7 @@ const projects: Project[] = [
   {
     id: 5,
     title: "Sushi Ui",
-    desc: "A Sushi Restrurent Landing page where they showcase there available menu of food.",
+    desc: "A visually appealing sushi restaurant landing page designed to showcase its curated menu experience.",
     img: "/static/projects/Sushi.png",
     link: "https://sushi-restaurant-ui.netlify.app/",
     github: "https://github.com/MuhammadTanveerAbbas/sushi-restaurant-ui",

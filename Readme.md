@@ -1,16 +1,7 @@
 <div align="center">
 
-# 💼 Developer Portfolio
+# V2 Portfolio Website 😎
 
-</div>
-
-<div align="center">
-  <img
-    src="https://i.postimg.cc/HswQgNpR/Preview.png"
-    alt="Portfolio Preview"
-    width="100%"
-    style="max-width: 800px; border-radius: 12px;"
-  />
 </div>
 
 <br/>
@@ -27,88 +18,61 @@
 
 ---
 
-## 🧠 Overview
+### 🧠 What is it
 
-A meticulously crafted, high-performance developer portfolio built using **Next.js**, **Tailwind CSS**, **TypeScript**, **MDX**, and **Contentlayer**. Designed to highlight software craftsmanship, technical writing, and real-world projects in a sleek, responsive layout.
-
----
-
-## 🚀 Tech Stack
-
-- **Framework**: [Next.js 12](https://nextjs.org/)
-- **Styling**: [Tailwind CSS 3](https://tailwindcss.com/)
-- **Content Management**:
-  - [MDX Remote](https://github.com/hashicorp/next-mdx-remote)
-  - [Contentlayer](https://www.contentlayer.dev/)
-- **Syntax Highlighting**: [Rehype Prism / Prism Plus](https://github.com/mapbox/rehype-prism)
-- **Type Safety**: [TypeScript](https://www.typescriptlang.org/)
-- **React**: Optimized with React 17 for smooth interactions
-- **Additional Tools**:
-  - [Gray Matter](https://github.com/jonschlinkert/gray-matter) – Frontmatter parsing
-  - [Reading Time](https://github.com/ngryman/reading-time) – Estimate reading durations
-  - [SWR](https://swr.vercel.app/) – Efficient data fetching
+**Developer Portfolio** is a modern, high performance portfolio built with **Next.js**, **Tailwind CSS**, **TypeScript**, **MDX**, and **Contentlayer**
+It highlights software craftsmanship, technical writing, and real world projects in a sleek and responsive layout
 
 ---
 
-## 📁 Project Structure
+### 💡 Why it is
 
-```plaintext
-/
-├── components/       # Reusable UI components
-├── content/          # MDX/Markdown blog and case studies
-├── pages/            # Route definitions and static pages
-├── public/           # Static assets and images
-├── styles/           # Global and Tailwind styles
-├── utils/            # Custom hooks and utility functions
-```
+Developers need a professional portfolio that demonstrates skills, projects, and content effectively
+**Developer Portfolio** provides a clean, fast, and interactive experience optimized for reading and navigation
 
 ---
 
-## ⚙️ Getting Started
+### ⚙️ What is the Problem
 
-### Prerequisites
+Many portfolios
 
-- Node.js (v14 or higher)
-- Yarn or npm
-
-### Development
-
-```bash
-npm install
-npm run dev
-```
-
-### Production
-
-```bash
-npm run build
-npm run start
-```
+- Are static and lack interactivity
+- Do not handle rich content efficiently
+- Are difficult to maintain or extend
 
 ---
 
-## ✨ Key Features
+### 🧩 What is the Solution
 
-- 📝 **MDX Blog Engine**
-  Write seamlessly in Markdown with code syntax highlighting, reading time indicators, and LaTeX support.
+**Developer Portfolio** delivers a modern, interactive, and maintainable portfolio using
 
-- 🎨 **Tailwind-powered UI**
-  Rapid styling using utility-first CSS, fully responsive, and dark mode ready.
-
-- ⚡ **Performance-focused**
-  Hybrid static & dynamic rendering with built-in SWR for client-side hydration.
-
-- 📚 **Rich Content Handling**
-  GitHub-flavored Markdown, automatic slugs, autolinked headings, and code block titles.
-
-- 🔍 **SEO Ready**
-  Clean URLs, Open Graph support, and optimized metadata for search and social platforms.
+- ⚡ **Next.js** for hybrid static and dynamic rendering
+- 🎨 **Tailwind CSS** for responsive styling
+- 📝 **MDX** and **Contentlayer** for blogs and projects
+- 🧠 **TypeScript** for type safety and reliability
+- 🔍 **SEO optimization** for discoverability
 
 ---
 
-## 📜 License
+### 🚀 Result
 
-This project is **MIT**.
-You may reference its structure and concepts for inspiration, but replication or redistribution without explicit permission.
+A polished, responsive, and high performance portfolio that
+
+- Displays projects, blogs, and technical writing beautifully
+- Loads quickly across all devices
+- Supports rich content such as code snippets, LaTeX, and reading time
+- Is easy to maintain and expand
 
 ---
+
+### 🛠️ Technology Used
+
+Next.js • React • Tailwind CSS • TypeScript • MDX • Contentlayer • SWR • Google Fonts
+
+---
+
+<div align="center">
+
+Designed and Developed with 🧠 by **Muhammad Tanveer Abbas** 🌟
+
+</div>

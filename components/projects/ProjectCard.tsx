@@ -67,11 +67,9 @@ function ProjectCard({ project }) {
         <ul className="flex flex-wrap items-center mt-3 -ml-2 list-none">
           {project.tags.map((tag) => (
             <li key={tag}>
-              <Link href={`/projects/tag/${kebabCase(tag)}`}>
-                <span className="m-1 rounded-lg text-sm bg-fun-pink-dark py-1 px-2 cursor-pointer hover:opacity-75 transition">
-                  {tag}
-                </span>
-              </Link>
+              <span className="m-1 rounded-lg text-sm bg-fun-pink-dark py-1 px-2 hover:opacity-75 transition">
+                {tag}
+              </span>
             </li>
           ))}
         </ul>

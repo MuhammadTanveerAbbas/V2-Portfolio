@@ -8,21 +8,14 @@ body {
   @apply bg-bg;
 }
 
-/* Custom Scrollbar */
+/* Hide Scrollbar */
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
 body::-webkit-scrollbar {
-  width: 8px;
-  background: transparent;
-}
-
-body::-webkit-scrollbar-track {
-  background: transparent;
-  display: none;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.13);
-  backdrop-filter: blur(5px);
-  border-radius: 10px;
+  display: none; /* Chrome, Safari, Opera */
 }
 
 /* Section Title Decoration */
