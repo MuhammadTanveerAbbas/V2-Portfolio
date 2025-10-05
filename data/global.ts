@@ -18,17 +18,25 @@ export const routes: Route[] = [
   {
     title: "Home",
     path: "/",
-    leavesWebsite: false,
+    leavesWebsite: false
   },
   {
     title: "Projects",
     path: "/projects",
-    leavesWebsite: false,
+    leavesWebsite: false
   },
-
   {
     title: "Contact",
-    path: "mailto:muhammadtanveerabbas.dev@gmail.com",
+    path: "/contact",
+    leavesWebsite: false
+  }
+];
+
+export const socialLinks = [
+  {
+    name: "GitHub",
+    link: "https://github.com/muhammadtanveerabbas",
+    icon: "github",
     leavesWebsite: true,
   },
 ];

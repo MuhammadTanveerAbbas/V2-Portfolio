@@ -4,7 +4,7 @@ import { Project } from "types";
 const projects: Project[] = [
   {
     id: 0,
-    title: "NexBank",
+    title: "NexBank 🏦",
     desc: "A Production ready modren, reusable template for rapid deployment of corporate banks websites.",
     img: "/static/projects/NexBank.png",
     link: "https://nexbank-spa.vercel.app",
@@ -13,7 +13,7 @@ const projects: Project[] = [
   },
   {
     id: 1,
-    title: "Axel AI",
+    title: "Axel AI 🤖",
     desc: "A modern SaaS AI landing page template that I use across various projects to streamline my workflow.",
     img: "/static/projects/Axel.png",
     link: "https://axel-ai-landing-page.vercel.app/",
@@ -22,7 +22,7 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Nike UI",
+    title: "Nike UI 🔰",
     desc: "An ecommerce landing page designed to showcase and sell shoes while building a strong brand identity.",
     img: "/static/projects/Nike UI.png",
     link: "https://nike-ui-spa.vercel.app/",
@@ -31,16 +31,16 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: "Zestymint",
-    desc: "A mint drink website that highlights the brands refreshing beverages and builds a distinctive identity.",
-    img: "/static/projects/Zestymint.png",
-    link: "https://zestymint.vercel.app/",
-    github: "https://github.com/MuhammadTanveerAbbas/zestymint",
-    tags: ["React", "Vite", "Tailwind", "GSAP"],
+    title: "Tourly 🛬",
+    desc: "Tourly is a professionally and versatile travel website template, built for the travel agencies worldwide.",
+    img: "/static/projects/Tourly.png",
+    link: "https://tourly-lp.netlify.app/",
+    github: "https://github.com/MuhammadTanveerAbbas/tourly-landing-page",
+    tags: ["HTML", "CSS", "JavaScript", "netlify"],
   },
   {
     id: 4,
-    title: "HomeVerse Ui",
+    title: "HomeVerse Ui 🏡",
     desc: "A modern real estate landing page designed to help users buy, sell, or rent properties with honest & ease.",
     img: "/static/projects/Homeverse.png",
     link: "https://homeverse-ui.netlify.app/",
@@ -49,7 +49,7 @@ const projects: Project[] = [
   },
   {
     id: 5,
-    title: "Sushi Ui",
+    title: "Sushi Ui 🍣",
     desc: "A visually appealing sushi restaurant landing page designed to showcase its curated menu experience.",
     img: "/static/projects/Sushi.png",
     link: "https://sushi-restaurant-ui.netlify.app/",

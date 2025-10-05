@@ -64,15 +64,18 @@ function ProjectCard({ project }) {
 
         <p className="text-fun-gray text-sm mt-2">{project.desc}</p>
 
-        <ul className="flex flex-wrap items-center mt-3 -ml-2 list-none">
-          {project.tags.map((tag) => (
-            <li key={tag}>
-              <span className="m-1 rounded-lg text-sm bg-fun-pink-dark py-1 px-2 hover:opacity-75 transition">
-                {tag}
-              </span>
-            </li>
-          ))}
-        </ul>
+        <div className="mt-3">
+          <span className="text-sm text-fun-gray">Made with </span>
+          <ul className="flex flex-wrap items-center mt-1 -ml-2 list-none">
+            {project.tags.map((tag) => (
+              <li key={tag}>
+                <span className="m-1 rounded-lg text-sm bg-fun-pink-dark py-1 px-2 hover:opacity-75 transition">
+                  {tag}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );

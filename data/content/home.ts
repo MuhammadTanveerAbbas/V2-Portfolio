@@ -76,7 +76,7 @@ export const testimonials: Testimonial[] = [
     job: "CEO, BrightWave Corp",
   },
   {
-    quote: "Tanveer made our project simple and stress-free. Excellent work.",
+    quote: "Tanveer made our project simple and stress free. Excellent work.",
     name: "Sara Ali",
     job: "Marketer, Al Noor Real Estate",
   },

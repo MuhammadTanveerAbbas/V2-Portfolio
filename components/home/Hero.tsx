@@ -8,7 +8,9 @@ function Hero() {
         className="relative heroElem w-full pt-20 pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
         style={{ maxWidth: "1200px" }}
       >
-        <p className="text-3xl md:text-4xl font-bold mb-4">Hey, I'm Tanveer 👋</p>
+        <p className="text-3xl md:text-4xl font-bold mb-4">
+          Hey, I'm Tanveer 👋
+        </p>
         <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl w-auto relative text-4xl md:text-5xl lg:text-6xl tracking-tighter mb-10 font-bold heroShinyBg">
           I develop <span className="heroShiny1 text-fun-pink">innovative</span>{" "}
           websites that elevate your{" "}
@@ -66,7 +68,7 @@ function Hero() {
           smooth={true}
           duration={500}
         >
-          <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white border-2 text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">
+          <div className="cursor-pointer font-bold whitespace-nowrap px-6 sm:px-10 py-3 sm:py-4 text-fun-white border-2 text-base sm:text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">
             My Projects
           </div>
         </ScrollLink>
