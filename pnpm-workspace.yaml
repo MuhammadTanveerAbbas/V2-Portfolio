@@ -1,0 +1,4 @@
+allowBuilds:
+  deasync: true
+  esbuild: true
+  protobufjs: true

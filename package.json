@@ -32,7 +32,8 @@
   },
   "devDependencies": {
     "@types/node": "^17.0.18",
-    "@types/react": "^17.0.39",
+    "@types/react": "17.0.39",
+    "@types/react-dom": "^17.0.11",
     "autoprefixer": "^10.2.6",
     "caniuse-lite": "^1.0.30001726",
     "postcss": "^8.3.5",
