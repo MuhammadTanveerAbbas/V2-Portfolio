@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="public/static/favicon/favicon.png" alt="Logo" width="80" />
+
 # V2 Portfolio Website 😎
 
 </div>
