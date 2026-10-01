@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { randomNumberText } from "@/utils/utils";
+import { randomNumberText } from "../utils/utils";
 
 function Page404() {
   const [num404, setNum404] = useState("0000");

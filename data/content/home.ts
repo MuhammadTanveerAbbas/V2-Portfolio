@@ -3,11 +3,6 @@ type Skill = {
   icon: string;
   style?: object;
 };
-type Testimonial = {
-  quote: string;
-  name: string;
-  job: string;
-};
 
 export const skills: Skill[] = [
   {
@@ -61,23 +56,5 @@ export const skills: Skill[] = [
   {
     title: "Figma",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-  },
-];
-
-export const testimonials: Testimonial[] = [
-  {
-    quote: "Tanveer quickly delivered exactly what we needed. Great results.",
-    name: "Ahmad Ali",
-    job: "CTO, Innovatech Solutions",
-  },
-  {
-    quote: "Professional, efficient, and easy to work with. Highly recommend.",
-    name: "Michael Thompson",
-    job: "CEO, BrightWave Corp",
-  },
-  {
-    quote: "Tanveer made our project simple and stress free. Excellent work.",
-    name: "Sara Ali",
-    job: "Marketer, Al Noor Real Estate",
   },
 ];

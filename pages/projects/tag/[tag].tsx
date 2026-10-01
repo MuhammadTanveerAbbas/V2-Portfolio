@@ -4,9 +4,9 @@ import Page from "components/utility/Page";
 import Projects from "components/projects/Projects";
 import Heading from "components/projects/Heading";
 
-import projects from "@/data/content/projects";
-import { allKebabTags, allTags } from "@/data/content/projects";
-import { kebabCase, kebabArray } from "@/utils/utils";
+import projects from "../../../data/content/projects";
+import { allKebabTags, allTags } from "../../../data/content/projects";
+import { kebabCase, kebabArray } from "../../../utils/utils";
 
 type TagPageProps = {
   filteredProjects: typeof projects;

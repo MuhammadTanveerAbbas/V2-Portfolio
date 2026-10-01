@@ -5,16 +5,15 @@ function Hero() {
   return (
     <>
       <div
-        className="relative heroElem w-full pt-20 pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
-        style={{ maxWidth: "1200px" }}
+        className="relative heroElem w-full pt-16 sm:pt-24 pb-32 sm:pb-48 m-auto flex justify-center text-center flex-col items-center z-1"
       >
-        <p className="text-3xl md:text-4xl font-bold mb-4">
-          Hey, I'm Tanveer 👋
+        <p className="text-3xl md:text-4xl font-bold mb-6 text-fun-gray-light">
+          Hey, I'm Tanveer
         </p>
-        <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl w-auto relative text-4xl md:text-5xl lg:text-6xl tracking-tighter mb-10 font-bold heroShinyBg">
+        <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl w-auto relative text-4xl md:text-5xl lg:text-6xl tracking-tight mb-12 font-bold heroShinyBg leading-tight">
           I develop <span className="heroShiny1 text-fun-pink">innovative</span>{" "}
           websites that elevate your{" "}
-          <span className="heroShiny2 text-fun-pink">business 🚀</span>
+          <span className="heroShiny2 text-fun-pink">business</span>
           <img
             className="sqD squiggle-hero-html w-16 top-[-90px] right-[5%] sm:top-[-90px] sm:right-[170px]"
             style={{ animationDelay: "0.1s" }}
@@ -68,7 +67,7 @@ function Hero() {
           smooth={true}
           duration={500}
         >
-          <div className="cursor-pointer font-bold whitespace-nowrap px-6 sm:px-10 py-3 sm:py-4 text-fun-white border-2 text-base sm:text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">
+          <div className="cursor-pointer font-bold whitespace-nowrap px-8 sm:px-12 py-4 sm:py-5 text-white border-2 text-base sm:text-lg rounded-full border-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-all duration-300 hover:shadow-lg hover:shadow-fun-pink/30 hover:-translate-y-1">
             My Projects
           </div>
         </ScrollLink>

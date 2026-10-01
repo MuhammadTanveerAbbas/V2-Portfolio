@@ -1,6 +1,6 @@
 import React from "react";
-import projects from "@/data/content/projects";
-import { Project } from "types";
+import projects from "../../data/content/projects";
+import { Project } from "../../types";
 import ProjectCard from "./ProjectCard";
 
 type ProjectsProps = {
@@ -13,7 +13,7 @@ function Projects({ overwriteProjects, limit = 6 }: ProjectsProps) {
   const displayedProjects = allProjects.slice(0, limit);
 
   return (
-    <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 items-start">
+    <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
       {displayedProjects.map((project) => (
         <ProjectCard key={project.id} project={project} />
       ))}

@@ -1,11 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true, // Enables additional React checks in dev
-  swcMinify: true, // SWC minification enabled (default in newer versions)
-
-  experimental: {
-    esmExternals: "loose", // Required for framer-motion compatibility
-  },
+  reactStrictMode: true,
 
   redirects: async () => {
     return [
@@ -18,19 +13,15 @@ const nextConfig = {
   },
 
   images: {
-    domains: ["yourdomain.com"], // Replace with real domains for next/image optimization
-  },
-
-  compiler: {
-    styledComponents: true, // Enable if you're using styled-components
+    domains: ["yourdomain.com"],
   },
 
   eslint: {
-    ignoreDuringBuilds: false, // Ensure linting is enforced during builds
+    ignoreDuringBuilds: false,
   },
 
   typescript: {
-    ignoreBuildErrors: false, // Prevent builds from succeeding if TS errors exist
+    ignoreBuildErrors: false,
   },
 };
 

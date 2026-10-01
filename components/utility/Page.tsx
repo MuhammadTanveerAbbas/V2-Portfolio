@@ -100,7 +100,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
           }}
         />
 
-        <main className="w-full flex-1 p-5 text-center overflow-hidden md:overflow-visible">
+        <main className="w-full flex-1 p-4 sm:p-5 text-center">
           <div className="hidden sm:block z-50">
             <Navbar currentPage={currentPage} />
           </div>
